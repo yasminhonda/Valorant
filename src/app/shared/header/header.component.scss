@@ -1,0 +1,25 @@
+.nav {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  position: fixed;
+  a {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 2.5rem;
+
+    &:first-child:hover {
+      border: none;
+    }
+
+    &:hover {
+      color: rgb(255, 110, 110);
+      border-bottom: 1px solid gray;
+    }
+  }
+}
+
+.img_home {
+  width: 7rem;
+}
