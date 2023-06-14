@@ -1,0 +1,77 @@
+@keyframes moving {
+  0% {
+    top: 28%;
+    left: 40%;
+  }
+  20% {
+    top: 1rem;
+    left: 80%;
+  }
+  40% {
+    top: 55%;
+    left: 80%;
+  }
+  60% {
+    top: 1rem;
+    left: 13rem;
+  }
+  80% {
+    top: 55%;
+    left: 13rem;
+  }
+  100% {
+    top: 28%;
+    left: 40%;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.874), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/home_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  //opacity: 0.5;
+}
+
+p {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 14rem;
+  color: rgb(255, 110, 110);
+  font-family: "VALORANT", sans-serif;
+}
+
+span {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.137),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../../../assets/crosshair.png");
+  width: 25rem;
+  height: 25rem;
+  background-size: 25rem;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(60%);
+  border-radius: 50rem;
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(255, 255, 255, 1) 0%,
+  //   rgba(255, 255, 255, 0.7233018207282913) 35%,
+  //   rgba(255, 255, 255, 0) 100%
+  // );
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  position: absolute;
+  animation-name: moving;
+  animation: moving 10s infinite;
+  // animation-duration: 4s;
+  //animation-delay: 3s;
+}
