@@ -35,7 +35,6 @@ section {
     url("../../../assets/home_banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  //opacity: 0.5;
 }
 
 p {
@@ -62,16 +61,8 @@ span {
   background-repeat: no-repeat;
   backdrop-filter: brightness(60%);
   border-radius: 50rem;
-  // background: radial-gradient(
-  //   circle,
-  //   rgba(255, 255, 255, 1) 0%,
-  //   rgba(255, 255, 255, 0.7233018207282913) 35%,
-  //   rgba(255, 255, 255, 0) 100%
-  // );
   box-shadow: 1px 1px 10px rgb(255, 255, 255);
   position: absolute;
   animation-name: moving;
   animation: moving 10s infinite;
-  // animation-duration: 4s;
-  //animation-delay: 3s;
 }

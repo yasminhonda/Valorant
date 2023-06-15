@@ -1,1 +1,6 @@
-<p>agents works!</p>
+<section>
+    <!-- <p *ngFor="let agent of agentList">{{agent.name}}</p> -->
+    <div class="icon_container">
+        <img (click)="clicou(agent)" class="icon" *ngFor="let agent of agentList" src={{agent.icon}} alt="">
+    </div>
+</section>

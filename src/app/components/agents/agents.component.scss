@@ -1,0 +1,22 @@
+section {
+  padding: 1.5rem 0 0 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icon_container {
+  width: 80%;
+  text-align: left;
+}
+
+.icon {
+  width: 12rem;
+  margin: 1rem;
+
+  &:hover {
+    background-color: aliceblue;
+    z-index: 1;
+    cursor: url("../../../assets/crosshair.png") 50 50, move;
+    fill: white;
+  }
+}

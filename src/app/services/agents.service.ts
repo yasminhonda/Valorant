@@ -11,9 +11,10 @@ export class AgentsService {
 
   constructor(private http: HttpClient) { }
 
-  public getAllMembers(): Observable<any> {
+  public getAllAgents(): Observable<any> {
     return this.http.get<any>(
       `${this.url}`
     )
   }
+
 }
